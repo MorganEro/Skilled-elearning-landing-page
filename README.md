@@ -32,31 +32,30 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/MorganEro/newsletter-sign-up)
-- Live Site URL: (https://morganero.github.io/newsletter-sign-up/)
+- Solution URL: (https://github.com/MorganEro/Skilled-elearning-landing-page)
+- Live Site URL: (https://morganero.github.io/Skilled-elearning-landing-page/)
 
 ## My process
 
 I created my variables for colors and fonts. Then created css for repeated styles.
-Next I completed the mobile view. I then created the desktop view. Lastly, I created the success views. After all the views were created, I checked for a responsive flow and made edits to the css to make sure everything looked as close to the figma and preview designs as I could.
-After matching the design, I created the javascript for the input field error and success message followed by the css needed for proper placement of the error message.
+Next I completed the mobile view. I then created the tablet view. Lastly, I created the Desktop view. After all the views were created, I checked for a responsive flow and made edits to the css to make sure everything looked as close to the figma and preview designs as I could.
+After matching the design, I checked my lighthouse score and made some edits to improve the performance.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- JavaScript
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-I learned to use em and rems for more of my units in case someone has their screen with larger font size. The elements of my page will scale accordingly. This also meant I set my initial body font size based on a 16px font size and used 1rem for that. If someone has their font size set larger for visibility issues, everything should scale with that.
+I am still improving my usage of em, rem, and px. Trying to find the best time to use each one by experimenting. I think I might have overused em and rem on this project.
 
 ### Continued development
 
-Still working on improving my usage of grid. I am also being more aware of the effect of padding and margin and how it effects the parent container.
+I am still confused by why some of the dimensions don't seem to match up between my developer tool preview and figma files. The differences aren't consistent so I am exploring and being more attentive about it.
 
 ## Author
 
