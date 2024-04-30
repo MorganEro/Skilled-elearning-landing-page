@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Challenger: Frontend-Mentor
+               Challenge: recreate skilled e-learning landing page
+               Tools: HTML, CSS, Google Fonts" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png" />
+
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <header class="header">
+          <img
+            class="header__logo"
+            src="assets/logo-dark.svg"
+            alt="Skilled logo" />
+          <button class="header__button">Get Started</button>
+        </header>
+        <div class="main__content">
+          <h1 class="heading-l">Maximize skill, minimize budget</h1>
+          <p class="main__content--text">
+            Our modern courses across a range of in-&nbsp;demand skills will
+            give you the knowledge you need to live the life you want.
+          </p>
+          <button class="white-layer">Get Started</button>
+        </div>
+        <picture>
+          <source
+            media="(min-width: 1300px)"
+            srcset="assets/image-hero-desktop.webp"
+            type="image/webp" />
+          <source
+            media="(min-width: 1300px)"
+            srcset="assets/image-hero-desktop.png"
+            type="image/png" />
+          <source
+            media="(min-width: 768px)"
+            srcset="assets/image-hero-tablet.webp"
+            type="image/webp" />
+          <source
+            media="(min-width: 768px)"
+            srcset="assets/image-hero-tablet.png"
+            type="image/png" />
+          <source
+            srcset="assets/image-hero-mobile.png"
+            type="image/webp" />
+          <img
+            class="hero"
+            src="assets/image-hero-mobile.webp"
+            alt="Hero image" />
+        </picture>
+      </div>
+
+      <div class="courses">
+        <h2 class="heading-m">Check out our most popular courses!</h2>
+        <div class="courses__course">
+          <img
+            src="assets/icon-animation.svg"
+            alt="" />
+          <h3 class="heading-s">Animation</h3>
+          <p class="courses__course--text">
+            Learn the latest animation techniques to create stunning motion
+            design and captivate your audience.
+          </p>
+          <a
+            class="white-layer"
+            href="">
+            Get Started
+          </a>
+        </div>
+        <div class="courses__course">
+          <img
+            src="assets/icon-design.svg"
+            alt="" />
+          <h3 class="heading-s">Design</h3>
+          <p class="courses__course--text">
+            Create beautiful, usable interfaces to help shape the future of how
+            the web looks.
+          </p>
+          <a
+            class="white-layer"
+            href="">
+            Get Started
+          </a>
+        </div>
+        <div class="courses__course">
+          <img
+            src="assets/icon-photography.svg"
+            alt="" />
+          <h3 class="heading-s">Photography</h3>
+          <p class="courses__course--text">
+            Explore critical fundamentals like lighting, composition, and focus
+            to capture exceptional photos.
+          </p>
+          <a
+            class="white-layer"
+            href="">
+            Get Started
+          </a>
+        </div>
+        <div class="courses__course">
+          <img
+            src="assets/icon-crypto.svg"
+            alt="" />
+          <h3 class="heading-s">Crypto</h3>
+          <p class="courses__course--text">
+            All you need to know to get started investing in crypto. Go from
+            beginner to advanced with this 54 hour course.
+          </p>
+          <a
+            class="white-layer"
+            href="">
+            Get Started
+          </a>
+        </div>
+        <div class="courses__course">
+          <img
+            src="assets/icon-business.svg"
+            alt="" />
+          <h3 class="heading-s">Business</h3>
+          <p class="courses__course--text">
+            A step-by-step playbook to help you start, scale, and sustain your
+            business without outside investment.
+          </p>
+          <a
+            class="white-layer"
+            href="">
+            Get Started
+          </a>
+        </div>
+      </div>
+      <footer class="footer">
+        <img
+          class="footer__logo"
+          src="assets/logo-light.svg"
+          alt="Skilled logo" />
+
+        <button class="white-layer">Get Started</button>
+      </footer>
+    </div>
+  </body>
+</html>
